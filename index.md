@@ -152,7 +152,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
   
   Click two or more cells simultaneously. You can unleash two or more punches at once, provided the number of punches does not exceed your remaining moves. 
 
-Whether a multi-punch attack can be blocked depends on the opponent's agility.
+  Whether a multi-punch attack can be blocked depends on the opponent's agility.
 
 <div align="center">
     <img src="image/MultiPunch_en.png" alt="Lock">
@@ -183,10 +183,6 @@ Whether a multi-punch attack can be blocked depends on the opponent's agility.
 - Sound
 
   You can adjust the sound effect volume under <mark style="background-color: lightgray">Menu>Sound</mark>. The value is specified as a percentage of the device's volume. The default is 50%.
-
-  You can change the theme from <mark style="background-color: lightgray">Menu>Theme</mark>. "Default" will follow your device's settings.
-  <br>
-  ※Dynamic Color is available on Android 12 and later.
 
 <div align="center">
     <img src="image/Sound.png" alt="Theme">
