@@ -94,14 +94,14 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 
 
 - Fists count
-  
+
   The "fist count" refers to the total number of punches and blocks performed on stage. You cannot execute more punches or blocks than the maximum allowed number of actions; this maximum is determined by the competitor's rank.
 
 <div align="center">
     <img src="image/FistNum_en.png" alt="Game Over">
 </div>
 
- - Selection of Opponents
+- Selection of Opponents
 
   Opponents are randomly selected from a range of ±2 ranks. Opponents possess specific characteristics and are categorized into offensive, defensive, and balanced types.
   
@@ -124,7 +124,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
     <img src="image/FeatureMap_en.png" alt="Game Over">
   </div>
 
- - Selection of the stage
+- Selection of the stage
 
   There are four types of stages: 2x2, 3x3, 4x4, and 5x5. The stage type is determined by the fighters' ranks. 
 
