@@ -104,7 +104,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
  - Selection of Opponents
   
   Opponents are randomly selected from a range of ±2 ranks. Opponents possess specific characteristics and are categorized into offensive, defensive, and balanced types.
-
+  
   | ランク | 表示名 | <center>特徴</center> | コメント |
   | ---- | ---- | ---- | ---- |
   |  | ??? | Limitless | ←あなた |
@@ -135,7 +135,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
   </div>
 
  - Rematch
-
+  
   If the match is suspended, a rematch between the same opponents will take place.
 
 ## Strategy Guide (Aim for the number one spot in the rankings!)
@@ -151,7 +151,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 - Multi punch
   
   Click two or more cells simultaneously. You can unleash two or more punches at once, provided the number of punches does not exceed your remaining moves. 
-
+  
   Whether a multi-punch attack can be blocked depends on the opponent's agility.
 
 <div align="center">
@@ -169,9 +169,9 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 </div>
 
  - Counter attack
-
+  
   Clicking when the opponent's punch is in the "Hit" state allows you to unleash a counter-punch. Punches marked with the "Rush" icon (flame symbol) are characterized by a faster transition to the "Hit" state compared to standard punches.
-
+  
   You can also follow up a counter-punch with a rapid-fire combo.
 
 <div align="center">
