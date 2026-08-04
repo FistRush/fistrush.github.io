@@ -168,7 +168,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
     <img src="image/MultiHitAttack_en.png" alt="Lock">
 </div>
 
- - Counter attack
+- Counter attack
 
   Clicking when the opponent's punch is in the "Hit" state allows you to unleash a counter-punch. Punches marked with the "Rush" icon (flame symbol) are characterized by a faster transition to the "Hit" state compared to standard punches.
 
