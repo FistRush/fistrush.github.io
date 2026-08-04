@@ -104,7 +104,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 - Selection of Opponents
 
   Opponents are randomly selected from a range of ±2 ranks. Opponents possess specific characteristics and are categorized into offensive, defensive, and balanced types.
-  
+
   | ランク | 表示名 | <center>特徴</center> | コメント |
   | ---- | ---- | ---- | ---- |
   |  | ??? | Limitless | ←あなた |
@@ -120,9 +120,9 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
   |  | Exp | Expert |
   | 高い | Elite | Elite |
 
-  <div align="center">
-    <img src="image/FeatureMap_en.png" alt="Game Over">
-  </div>
+<div align="center">
+  <img src="image/FeatureMap_en.png" alt="Game Over">
+</div>
 
 - Selection of the stage
 
@@ -130,11 +130,11 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 
   If the fighters have different ranks, the stage corresponding to the higher rank is used.
 
-  <div align="center">
-    <img src="image/StageList.png" alt="Game Over">
-  </div>
+<div align="center">
+  <img src="image/StageList.png" alt="Game Over">
+</div>
 
- - Rematch
+- Rematch
 
   If the match is suspended, a rematch between the same opponents will take place.
 
