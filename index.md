@@ -152,7 +152,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
   
   Click two or more cells simultaneously. You can unleash two or more punches at once, provided the number of punches does not exceed your remaining moves. 
   
-  Whether a multi-punch attack can be blocked depends on the opponent's agility.
+  Whether a multi-punch attack can be blocked depends on the opponent's speed.
 
 <div align="center">
     <img src="image/MultiPunch_en.png" alt="Lock">
