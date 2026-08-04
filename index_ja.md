@@ -8,24 +8,28 @@
 </table>
 <br><br>
 
-<!-- <div align="center">
+<div align="center">
     <img src="image/FeatureGraphics.png" alt="Fist Rush">
 </div>
 
-「Morse Attack」はシューティングゲームです。上空から攻めて来る文字列軍団を、モールス符号で照準を合わせて、撃ち落としてください。地上まで攻め込まれたらゲームオーバーです。
+「俺は有名な格闘家になるんだ！」それが君の夢だ。
 
-さあ、あなたは地上を守り切ることが出来るか！！
+その夢を叶える一番の近道は、「Fist Rush」トーナメントに参加し、ランキング1位を目指すことだ。トップに君臨する格闘家は「Elite」と呼ばれ、誰もが尊敬する存在となる。
+
+​​このトーナメントでは、拳だけを武器に戦う。相手のパンチを防御しつつ、自分のパンチを繰り出して勝利を掴むのだ。3連勝すればランクアップ、3連敗すればランクダウンとなる。
+
+さあ、君には「Fist Rush」を制覇し、「Elite」になるだけの力があるだろうか？
 
 ## インストール
 Google Playからインストールできます。
 
 <div align="center">
-    <img src="image/qrcode_1779668390791.png" alt="QRコード">
+    <img src="image/qrcode_1785716849397.png" alt="QRコード">
 </div>
 
 <div style="display: flex; align-items: center; justify-content: center; gap: 12px;">
   <img src="./image/ic_launcher_round.webp" alt="QRコード">
-  <a href="https://play.google.com/store/apps/details?id=com.studiosuzu.app.morseattack&pli=1">[ Morse Attack ] Google Play</a>
+  <a href="https://play.google.com/store/apps/details?id=com.studiosuzu.app.fistrush">[ Fist Rush ] Google Play</a>
 </div>
 
 ## 遊び方
@@ -38,126 +42,150 @@ Google Playからインストールできます。
 
 ### （１）スタートボタンを押す
 
-文字列軍団（敵）の進軍が開始されます。
+スタートボタンを押します。対戦者情報が表示され、その後、試合が開始されます。
 
 <div align="center">
-    <img src="image/Start_ja.png" alt="Start Button">
+    <img src="image/Start.png" alt="Start Button">
 </div>
 
-### （２）照準を合わせる
+### （２）攻撃
 
-ダッシュ（-）とドット（.）ボタンを操作してモールス符号を入力して下さい。レタースペース分の時間が経過すると、モールス符号は文字に変換されます。
+空欄のセルをクリックすると、パンチが放たれます。
 
 <div align="center">
-    <img src="image/InputMorse_ja.png" alt="Input Morse">
+    <img src="image/Offense_ja.png" alt="Input Morse">
 </div>
 
-入力を間違えたら、キャンセル（C）ボタンで１文字が消えます。間違えた文字を再入力して下さい。
+時間が経過した後、ヒットに変わり、この時点で対戦者にパンチが当たります。
 
-照準が合うと、ターゲットは赤くなります。
+### （３）防御
 
-### （３）撃ち落とす
-
-ショット（S）ボタンでターゲットを撃ち落とします。攻撃が当たると、ターゲットは消滅します。そして、得点が入ります。
+対戦者のパンチをクリックすると、パンチを受け止めます。
 
 <div align="center">
-    <img src="image/Shot_ja.png" alt="Shot">
+    <img src="image/Defense_ja.png" alt="Shot">
 </div>
 
-### （４）ゲームオーバー
+防御を行えば、ダメージを受ける（体力が減る）ことはありません。
 
-地上まで攻め込まれたら、ゲームオーバーです。
+### （４）勝ち・負け
+
+体力が０になった対戦者の「負け」です。
 
 <div align="center">
-    <img src="image/GameOver_ja.png" alt="Game Over">
+    <img src="image/WinAndLose_ja.png" alt="Game Over">
 </div>
+
+両者（YouとGuy）の体力は、時間経過と共に徐々に減っていく点に注意して下さい。
+
+体力が同時に０になった場合は、「引き分け」です。
 
 ## その他ルール
 
-- ショットのヒット率
+- 防御成功率
   
-  照準は一部の文字に合っていれば、ショット出来ます。しかし、当たる確率（ヒット率）が異なります。つまり、ヒット率の低いターゲットは、何回もショットを打たないと、攻撃が当たりません。
+  ステージ上に表示される円は対戦者の防御成功率を表しています。時計回りに集中攻撃を行うことで、中心の防御成功率を一時的に下げることが可能です。
 
-  | ターゲット | 照準 | ヒット率 |
-  | ---- | ---- | ----: |
-  | <span style="color:red">A</span>BCD | 1/4 | 25% |
-  | <span style="color:red">AB</span>CD | 2/4 | 55% |
-  | <span style="color:red">ABC</span>D | 3/4 | 75% |
-  | <span style="color:red">ABCD</span> | 4/4 | 100% |
-
-- 得点
-  
-  得点は撃ち落としたターゲットによって異なります。また、ショットは1ポイントを消費します。
-
-  | | 得点 | <center>例</center> |
-  | --- | ---: | --- |
-  | 1文字 | 2 | <span style="color:red">AB</span>CD ⇒ 2 X 2 - 1 = 3点 |
-  | コンプリート | 10 | <span style="color:red">ABCD</span> ⇒ 4 x 2 - 1 + 10 = 17点 |
-  | ショット | -1 | |
-
-  「コンプリート」とは、すべての文字に照準が合った状態をいいます。
-
-## 攻略法（高得点をめざせ！）
-
-- アナライズ
-  
-  モールス符号を覚えていない文字が登場しても大丈夫！アナライズ機能を使ってみて下さい。
-
-  スクリーンをタップすると解析が行われ、スクリーン上にモールス符号を表示します。ただし、５秒間だけです。
+  対戦者の防御成功率が低くなると、相反する対戦者の攻撃成功率は高くなります。
 
 <div align="center">
-    <img src="image/Analyze.png" alt="Analyze">
+    <img src="image/SuccessRate_ja.png" alt="Game Over">
 </div>
 
-- 照準ロック
+- 手数
   
-  ショットすると、照準はロックされます。ロック後は連続で撃てます。
-
-  ロックの解除は他のボタンを押してください。
+  手数とは、ステージ上に存在するパンチ数とブロック数の合計です。手数の最大数を超えてパンチ及びブロックは放てません。手数の最大数は対戦者のランクで決まります。
 
 <div align="center">
-    <img src="image/Lock_ja.png" alt="Lock">
+    <img src="image/FistNum_ja.png" alt="Game Over">
 </div>
 
-- 乱れ打ち
+- 対戦者の選定
 
-  ** 近日公開 **
+  対戦者は同ランク±2の範囲からランダムに選定されます。対戦者は特徴を持ち、攻撃型、防御型、中間型に分けられます。
+
+  | ランク | 表示名 | <center>特徴</center> | コメント |
+  | ---- | ---- | ---- | ---- |
+  |  | ??? | Limitless | ←あなた |
+  | 低い | Beg | Beginner |
+  |  | DefeC | DefensiveC |
+  |  | OffeC | OffensiveC |
+  |  | Mid | Middle |
+  |  | DefeC | DefensiveC |
+  |  | OffeC | OffensiveC |
+  |  | Adv | Advanced |
+  |  | DefeC | DefensiveC |
+  |  | OffeC | OffensiveC |
+  |  | Exp | Expert |
+  | 高い | Elite | Elite |
+
+  <div align="center">
+    <img src="image/FeatureMap_ja.png" alt="Game Over">
+  </div>
+
+- ステージの選定
+
+  ステージは2x2、3x3、4x4、5x5の４タイプがあります。ステージのタイプは対戦者のランクで決まります。
+  
+  また、対戦者のランクが異なるときは、ランクの高い方のステージが採用されます。
+  
+  <div align="center">
+    <img src="image/StageList.png" alt="Game Over">
+  </div>
+
+- 再試合
+
+  試合が中断された場合は、同じ対戦者の再試合になります。
+
+## 攻略法（ランキング１位をめざせ！）
+
+- 集中攻撃
+  
+  時計回りの攻撃で中心の防御成功率を十分下げた後に、パンチを放つ攻撃です。高い確率でパンチを当てることが出来ます。
+
+<div align="center">
+    <img src="image/ConcentratedAttack_ja.png" alt="Analyze">
+</div>
+
+- マルチパンチ
+  
+  二つ以上のセルを同時にクリックします。二つ以上のパンチを同時に放つことが出来ます。ただし、パンチの数は手数の残数の範囲内です。
+
+  マルチパンチを防御できるかどうかは、対戦者の俊敏さに依存します。
+
+<div align="center">
+    <img src="image/MultiPunch_ja.png" alt="Lock">
+</div>
+
+- 連撃
+
+  自身のパンチがヒットしているタイミングでクリックすると、連続してパンチを放てます。ラッシュ(炎マーク)が付いたパンチは、通常のパンチよりも短い時間でヒットへ遷移する点が特徴です。
+
+  図は「２連撃」の例です。さらに続けることも可能です。
+
+<div align="center">
+    <img src="image/MultiHitAttack_ja.png" alt="Lock">
+</div>
+
+- カウンター
+
+  相手のパンチがヒットしているタイミングでクリックすると、カウンターパンチを放てます。ラッシュ(炎マーク)が付いたパンチは、通常のパンチよりも短い時間でヒットへ遷移する点が特徴です。
+
+  カウンターの後、さらに連撃へ切り替えることも可能です。
+
+<div align="center">
+    <img src="image/CounterAttack_ja.png" alt="Lock">
+</div>
 
 ## オプション機能
 
-- テーマ変更
+- サウンド
 
-  <mark style="background-color: lightgray">Menu>Theme</mark>からテーマの変更が可能です。「Default」は端末の設定に従います。
-  <br>
-  ※ダイナミックカラーはAndroid 12以降で利用できます。
+  <mark style="background-color: lightgray">Menu>Sound</mark>から効果音の音量の変更が可能です。値はデバイスの音量のパーセンテージで指定します。デフォルトは50%です。
 
 <div align="center">
-    <img src="image/Theme.png" alt="Theme">
+    <img src="image/Sound.png" alt="Theme">
 </div>
-
-- スピード設定
-
-  <mark style="background-color: lightgray">Menu>Speed</mark>からゲーム開始時の敵の進軍スピードを変更できます。
-
-<div align="center">
-    <img src="image/Speed.png" alt="Speed">
-</div>
-
-- レタースペース調整
-
-  <mark style="background-color: lightgray">Menu>Morse</mark>からレタースペースを変更できます。
-
-<div align="center">
-    <img src="image/LetterSpace.png" alt="Letter Space">
-</div>
-
-- モールス符号一覧
-
-  <mark style="background-color: lightgray">Help</mark>からモールス符号の一覧が表示できます。ここに表示される文字がゲームに登場する文字です。
-
-<div align="center">
-    <img src="image/Help.png" alt="Help">
-</div> -->
 
 ## プライバシーポリシー
 
