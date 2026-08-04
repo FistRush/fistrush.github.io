@@ -83,9 +83,9 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 ## Other rules
 
 - Defense success rate
-
+  
   The circle displayed on the stage represents the opponent's defense success rate. By concentrating attacks in a clockwise direction, you can temporarily lower the defense success rate at the center. 
-
+  
   As the opponent's defense success rate drops, the attack success rate of the opposing combatant rises.
 
   <div align="center">
@@ -94,7 +94,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 
 
 - Fists count
-
+  
   The "fist count" refers to the total number of punches and blocks performed on stage. You cannot execute more punches or blocks than the maximum allowed number of actions; this maximum is determined by the competitor's rank.
 
 <div align="center">
@@ -102,9 +102,9 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 </div>
 
 - Selection of Opponents
-
+  
   Opponents are randomly selected from a range of ±2 ranks. Opponents possess specific characteristics and are categorized into offensive, defensive, and balanced types.
-
+  
   | ランク | 表示名 | <center>特徴</center> | コメント |
   | ---- | ---- | ---- | ---- |
   |  | ??? | Limitless | ←あなた |
@@ -125,7 +125,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 </div>
 
 - Selection of the stage
-
+  
   There are four types of stages: 2x2, 3x3, 4x4, and 5x5. The stage type is determined by the fighters' ranks. 
 
   If the fighters have different ranks, the stage corresponding to the higher rank is used.
@@ -135,7 +135,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 </div>
 
 - Rematch
-
+  
   If the match is suspended, a rematch between the same opponents will take place.
 
 ## Strategy Guide (Aim for the number one spot in the rankings!)
@@ -159,7 +159,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 </div>
 
 - Multi-hit attack
-
+  
   Clicking while your punch is in the "Hit" state allows you to unleash consecutive punches. Punches marked with the "Rush" icon (flame symbol) are characterized by a faster transition to the hit state compared to standard punches.
 
   The diagram shows an example of a "two-hit combo." You can continue the sequence further.
@@ -169,7 +169,7 @@ If both fighters' Health reaches zero at the same time, the result is a draw.
 </div>
 
 - Counter attack
-
+  
   Clicking when the opponent's punch is in the "Hit" state allows you to unleash a counter-punch. Punches marked with the "Rush" icon (flame symbol) are characterized by a faster transition to the "Hit" state compared to standard punches.
 
   You can also follow up a counter-punch with a rapid-fire combo.
